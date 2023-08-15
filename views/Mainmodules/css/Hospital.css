@@ -1,0 +1,28 @@
+/* Hospital CSS */
+
+.FieldName{
+    border: 0; 
+    outline: none;
+    border-bottom: solid #5e606e; 
+    width: 100%;
+}
+
+.Legend{
+  position: relative;
+  width: 400px;
+  height: 100px;
+  top: 20px;
+  margin: 10px 0;
+  display: flex;
+  flex-wrap: 1em;
+  gap: 3em;
+
+}
+
+.Legend label{
+    color: whitesmoke;
+}
+
+
+/* Hospital*/
+

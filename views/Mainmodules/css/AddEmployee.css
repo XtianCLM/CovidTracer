@@ -1,0 +1,65 @@
+.Add1{
+	grid-column-end: span 3;
+}
+.Add2{
+	grid-column-end: span 1;
+}
+#EmployeeBtn{
+	grid-row-start: 5;
+	grid-column-start: 2;
+
+}
+
+.AddWrapper{
+
+	margin: auto;
+	background: whitesmoke;
+	padding: 20px;
+	border: 5px 5px 5px 5px solid;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 3px 3px 3px 3px #5e606e;
+	width: 50%;
+	height: auto;
+
+
+}
+
+.grid-containerAdd{
+	display: grid;
+	grid-template-areas: auto auto auto;
+	grid-row-gap: 30px;
+	grid-column-gap: 10px;
+    padding:  20px 0;
+}
+
+.grid-containerAdd div{
+		text-align: center;
+		border: solid;
+		box-shadow: 1px 1px 1px 1px #;
+		border-color: #d8e0e8;
+		border-radius:10px 10px 10px 10px ;
+		padding:5px 0;
+		font-size: 20px;
+
+}
+
+.grid-containerAdd input{
+	width: 100%;
+	border: none;
+	color: #5e606e;
+	background-color: transparent;
+}
+
+#role{
+	width: 100%;
+	border: none;
+	color: #5e606e;
+	background-color: transparent;
+}
+
+
+.grid-containerAdd h2{
+	font-size: 2.1em;
+	color: #5e606e;
+}
+

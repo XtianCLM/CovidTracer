@@ -1,0 +1,177 @@
+.City1{
+	grid-area: City1;
+}
+.City2{
+	grid-area: City2;
+}
+.City3{
+	grid-area: City3;
+}
+.City4{
+	grid-area: City4;
+}
+.City5{
+	grid-area: City5;
+}
+.City6{
+	grid-area: City6;
+}
+.City7{
+	grid-area: City7;
+}
+.City8{
+	grid-area: City8;
+}
+.City9{
+	grid-area: City9;
+}
+.confirm{
+	grid-area: confirm;
+}
+.actives{
+	grid-area: actives;
+}
+.recovered{
+	grid-area: recovered;
+}
+.death{
+	grid-area: death;
+}
+
+
+.grid-wrapper{
+	background: whitesmoke;
+	border-radius: 5px 5px 5px 5px;
+}
+.grid-container{
+	display: grid;
+	grid-template-areas:
+	' City1 City2  City3 '
+	' City1 City2  City3 '
+	' City1 City2  City3 ';
+	gap: 20px;
+	padding: 30px;
+
+}
+
+.grid-containerModal{
+	display: grid;
+	grid-template-areas: 
+	'confirm actives recovered death';
+	gap: 5px;
+	padding: 10px;
+}
+
+.grid-containerModal div{
+	text-align: center;
+		border: solid;
+		border-color: #d8e0e8;
+		border-radius:10px 10px 10px 10px ;
+		padding:5px 0;
+		font-size: 20px;
+}
+.confirm{
+
+		background-color: #f6454a;
+		
+}
+
+.actives{
+
+		background-color: #4b96f4;
+		
+}
+.recovered{
+	background-color: #63ee98;
+}
+.death{
+	background-color: #7c8382;
+}
+
+
+#more {display: none;
+
+}
+
+.grid-container2{
+	display: grid;
+	grid-template-areas:
+
+	' City4 City5  City6 '
+	' City4 City5  City6 '
+	' City4 City5  City6 '
+	' City7 City8  City9 '
+	' City7 City8  City9 '
+	' City7 City8  City9 ';
+	gap: 20px;
+	padding: 30px;
+
+
+}
+
+.grid-container div{
+	background-color: #fbf4ef;
+	border: solid;
+	border-color: #d8e0e8;
+	text-align: center;
+	padding: 20px 0;
+	font-size: 30px;
+	border-radius: 10px 10px 10px 10px;
+	
+}
+
+.grid-container2 div{
+	background-color: #fbf4ef;
+	border: solid;
+	border-color: #d8e0e8;
+	text-align: center;
+	padding: 20px 0;
+	font-size: 30px;
+	border-radius: 10px 10px 10px 10px;
+	
+}
+.grid-container div:hover{
+	background-color:#dae2e7;
+	box-shadow: 12px 12px 2px 1px rgba(0, 0, 230, .1);
+	cursor: pointer;
+}
+
+.grid-container2 div:hover{
+	background-color:#dae2e7;
+	box-shadow: 12px 12px 2px 1px rgba(0, 0, 230, .1);
+	cursor: pointer;
+}
+
+.grid-wrapper a{
+	  float: right;
+  margin: 0 1.5%;
+  width: 5%;
+}
+.grid-wrapper a:hover{
+	color: gray;
+	cursor: pointer;
+}
+.grid-wrapper h1{
+	padding-top: 20px;
+	padding-left: 50px;
+}
+
+@media (max-width: 978px) {
+    
+  .grid-wrapper h1{
+     font-size: 25px;
+  }
+  .grid-container div{
+  	 font-size: 20px;
+  }
+  .grid-wrapper h5{
+  	 font-size: 15px;
+  }
+  .grid-containerModal div{
+  	font-size: 15px;
+  }
+  .modal p{
+  	font-size: 15px;
+  }
+ 
+    }

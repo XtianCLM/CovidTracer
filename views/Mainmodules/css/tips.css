@@ -1,0 +1,112 @@
+
+/* first container css */
+.col-one > img{
+    width:70%;
+    animation-name:imagemove;
+    animation-duration: 1.2s;
+    animation-delay:0.1s;
+    animation-timing-function:ease-out;
+    
+    
+
+}
+
+#content1{
+    margin-top: 120px;
+    margin-left:80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.col > h3{
+    color:white;
+    font-size:34px;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-right:50px;
+    margin-top:200px;
+    text-shadow: 2px 2px black;
+    animation-name:h3move;
+    animation-duration: 3s;
+    animation-delay: 0.2s;
+    
+    
+}
+.content2{
+    margin-top:200px;
+}
+
+
+.content2 > img{
+    width:50px;
+}
+/* second container */
+
+.col-two{
+    margin-top: 130px;
+}
+.col-two > img{
+    position:relative;
+    left: 755px;
+    width:33%;
+    height:350px;
+    top:-280px;  
+}
+.col-two > h3{
+    text-align: justify;
+    text-justify: inter-word;
+    color:white;
+    font-size:32px;
+    text-shadow: 2px 2px black;
+    position:relative;
+    left:100px;
+    top:90px;
+    width:500px;
+}
+.third-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.left-box > img{
+    width:70%;
+    height:350px;
+    margin-left: 70px;
+}
+.right-box > h3{
+    width: 500px;
+    text-align: justify;
+    text-justify: inter-word;
+    color:white;
+    margin-top:-10px;
+}
+/* keyframes */
+@keyframes h3move {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+@keyframes imagemove {
+    0%{
+        position: relative;
+        right:3000px;
+        opacity:0.5;
+    }
+    50%{
+        opacity:0.1;
+    }
+    80%{
+        opacity:0.1;
+    }
+    90%{
+        opacity:0.2;
+    }
+    100%{
+        position: relative;
+        right:0px;
+        opacity:1;
+    }
+}
